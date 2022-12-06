@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Joan&family=EB+Garamond:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-size: large;
+}
+
+.logo {
+    font-family: "Lobster", system-ui;
+    background: #ffbf00;
+    border-radius: 0.6rem 0.6rem 0.3rem 0.3rem;
+    padding: 0.3rem 0.6rem;
+    color: #860534;
+    text-shadow: 1px 1px 2px #d7afaf;
+    box-shadow: 1px 1px 5px 0 #a2a2a2c7, inset 1px 1px 8px #d4aa00,
+        inset -1px -1px 8px #d4aa00;
+}
+
+.logo i {
+    font-size: 0.6rem;
+    font-family: "Joan";
+    color: #174800;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.3rem 0;
+    background-color: #fff;
+}
+
+.navbar,
+.menu-bar {
+    box-shadow: 1px 0 3px 0 #e6ebe5;
+}
+
+.borders {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.borders-c{
+    background-color: #860534;
+    color: #fff;
+
+}
+
+.borders-c:hover{
+    background-color: #c2074c;
+    box-shadow: 1px 1px 3px 0 #828282;
+
+}
+
+.borders-w{
+    background-color: #fff;
+    color: #860534;
+    border: 1px solid;
+    border-color: #860534;
+}
+
+.borders-w:hover{
+    box-shadow: 0 1px 4px 0 #8605348c;
+}
+
+.f {
+    display: flex;
+    align-items: center;
+}
+
+.js {
+    justify-content: flex-start;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.fc {
+    flex-direction: column;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.fr {
+    justify-content: space-around;
+}
+
+.hero {
+    font-family: "Joan";
+    margin: 3.2rem 0 0 0;
+    padding: 2rem;
+    background-image: url("./mshe.jpg");
+}
+
+.h-title {
+    font-size: 45px;
+    color: #174800;
+}
+
+.hero .p-title {
+    color: #860534;
+}
+
+.hero .h-desc {
+    color: #174800;
+}
+
+.menu-bar {
+    padding: 1rem 0;
+}
+
+.ico {
+    color: #828282;
+}
+
+.img {
+    width: 70%;
+    border-radius: 40%;
+    margin: 1rem 0;
+}
+
+.products {
+    margin: 0.5rem 0.63rem;
+}
+
+.product {
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.3rem;
+    max-width: 16rem;
+    border: 1px solid #e6ebe5;
+    border-radius: 0.5rem;
+}
+
+.product:hover {
+    border: 1px solid #ffbf00;
+}
+
+.product .p-title,
+.p-price {
+    color: #247100;
+}
+
+.p-cat,
+.p-title {
+    text-transform: uppercase;
+}
+
+.h-desc {
+    margin: 0.5rem 0;
+    width: 350px;
+}
+
+.p-desc {
+    width: 13rem;
+    color: #656565;
+}
+
+.p-price {
+    margin: 0.5rem;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.abt {
+    background: url("./mshe.jpg");
+    padding: 3rem 1.5rem;
+}
+
+.abt-d {
+    margin: 0.5rem;
+    padding: 0 2rem;
+}
+
+.cont {
+    padding: 1rem 0;
+}
+
+.cont-l {
+    align-items: flex-start;
+}
+
+.cont-i {
+    margin: 0.3rem 0;
+    width: 60vw;
+    padding: 0.5rem;
+    border: 2px solid #e6ebe5;
+    border-radius: 0.3rem;
+    outline: none;
+}
+
+.cont-i:hover{
+    border-color: #ffbf00;
+}
+
+footer {
+    background-color: #828282;
+    color: #fff;
+    padding: 0.5rem 0;
+    font-size: 0.7rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #860534;
+    background-color: #e6ebe5;
+    margin: .3rem;
+    padding: .2rem;
+    border-radius: .2rem;
+
+}
+
+@media screen and (min-width:600px) {
+    
+}
+
+
+
+
+
